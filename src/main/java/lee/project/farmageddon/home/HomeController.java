@@ -13,4 +13,10 @@ public class HomeController
   {
     return "home";
   }
+
+  @RequestMapping("/angular")
+  public String angular(Map<String, Object> model)
+  {
+    return "angular";
+  }
 }

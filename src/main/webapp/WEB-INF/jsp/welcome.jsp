@@ -9,9 +9,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <spring:url value="/resources/bootstrap-3.3.6-dist/css/bootstrap.min.css" var="bootstrapCss" />
-    <spring:url value="/resources/jQuery/jquery-2.2.1.min.js" var="jqueryJs" />
-    <spring:url value="/resources/bootstrap-3.3.6-dist/js/bootstrap.min.js" var="bootstrapJs" />
+    <spring:url value="/resources/bower_components/bootstrap/dist/css/bootstrap.min.css" var="bootstrapCss" />
+    <spring:url value="/resources/bower_components/jquery/dist/jquery.min.js" var="jqueryJs" />
+    <spring:url value="/resources/bower_components/bootstrap/dist/js/bootstrap.min.js" var="bootstrapJs" />
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
