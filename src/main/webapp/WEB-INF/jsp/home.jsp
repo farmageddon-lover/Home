@@ -12,12 +12,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <spring:url value="/resources/bootstrap-3.3.6-dist/css/bootstrap.min.css" var="bootstrapCss" />
+    <spring:url value="/resources/bower_components/bootstrap/dist/css/bootstrap.min.css" var="bootstrapCss" />
     <spring:url value="/resources/css/jumbotron.css" var="jumbotronCss" />
     <spring:url value="/resources/images/favicon.ico" var="favIcon" />
     <spring:url value="/resources/images/tiger_2.jpg" var="tiger2" />
-    <spring:url value="/resources/jQuery/jquery-2.2.1.min.js" var="jqueryJs" />
-    <spring:url value="/resources/bootstrap-3.3.6-dist/js/bootstrap.min.js" var="bootstrapJs" />
+    <spring:url value="/resources/bower_components/jquery/dist/jquery.min.js" var="jqueryJs" />
+    <spring:url value="/resources/bower_components/bootstrap/dist/js/bootstrap.min.js" var="bootstrapJs" />
 
     <link rel="icon" href="${favIcon}">
 
