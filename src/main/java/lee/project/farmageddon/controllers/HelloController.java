@@ -1,4 +1,4 @@
-package lee.project.farmageddon.hello;
+package lee.project.farmageddon.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

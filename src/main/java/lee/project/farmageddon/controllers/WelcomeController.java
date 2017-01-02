@@ -1,4 +1,4 @@
-package lee.project.farmageddon.welcome;
+package lee.project.farmageddon.controllers;
 
 import java.util.Date;
 import java.util.Map;
