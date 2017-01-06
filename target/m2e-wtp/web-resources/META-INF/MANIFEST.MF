@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Vendor: Lee Walters, Inc.
-Implementation-Title: Farmageddon Web Project
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Title: Project Panzer
+Implementation-Version: 1.0
 Implementation-Vendor-Id: lee.farmageddon
 Build-Jdk: 1.7.0_80
 Built-By: lee
