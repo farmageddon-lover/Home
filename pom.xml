@@ -2,9 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lee.farmageddon</groupId>
   <artifactId>Farmageddon</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>war</packaging>
-  <name>Farmageddon Web Project</name>
+  <name>Project Panzer</name>
   <description>With the hops of Farmageddon we shall produce a web project</description>
   <url>http://www.leestuartwalters.co.uk</url>
   <organization>
@@ -29,6 +29,18 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-security</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.thymeleaf.extras</groupId>
+      <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-tomcat</artifactId>
       <scope>provided</scope>
@@ -46,10 +58,6 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -129,5 +137,6 @@
         </configuration>
       </plugin>
     </plugins>
+    <finalName>${project.artifactId}</finalName>
   </build>
 </project>
