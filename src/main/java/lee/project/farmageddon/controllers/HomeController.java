@@ -38,6 +38,36 @@ public class HomeController
 
     return model;
   }
+  
+  @RequestMapping("/resume")
+  public String resume(Map<String, Object> model)
+  {
+    return "resume";
+  }
+  
+  @RequestMapping("/index")
+  public String index(Map<String, Object> model)
+  {
+    return "index";
+  }
+  
+  @RequestMapping("/feedback")
+  public String feedback(Map<String, Object> model)
+  {
+    return "feedback";
+  }
+  
+  @RequestMapping("/blogpost")
+  public String blogpost(Map<String, Object> model)
+  {
+    return "blogpost";
+  }
+  
+  @RequestMapping("/contacts")
+  public String contacts(Map<String, Object> model)
+  {
+    return "contacts";
+  }
 
   @RequestMapping("/angular")
   public String angular(Map<String, Object> model)
